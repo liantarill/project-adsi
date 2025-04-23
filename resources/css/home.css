@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+    /* font-family: "Trebuchet MS"; */
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Agustina";
+    src: url("/resources/font/Agustina.woff") format("woff");
+}
+
+.logo {
+    font-family: "Agustina", cursive;
+    font-size: 30px;
+}
+
+.logo_foot {
+    font-family: "Agustina", cursive;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+    /* transform: translateY(-2px); */
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.hero-section {
+    background: url("/public/images/gallery.jpg") center center / cover
+        no-repeat;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        padding-left: 6rem;
+    }
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+.section-card {
+    margin-top: 16px;
+}
+.category-card {
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    background-color: #eff6ff;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    /* margin-left: 12px;
+  margin-right: 12px; */
+    border: none;
+    height: 176px;
+    /* width: 294px; */
+}
+.category-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transform: translateY(-5px); */
+}
+.category-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.category-count {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.art-card {
+    padding: 0;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.art-card:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-like {
+    margin-right: 4px;
+    border: none;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart {
+    margin-left: 4px;
+    border: none;
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f46e5;
+}
+
+.karya-terbaru {
+    background-color: #f9fafb;
+}
+
+.top-artist-card {
+    background-color: #f9fafb;
+    border: none;
+    border-radius: 16px;
+    height: 252px;
+    margin-bottom: 10px;
+}
+
+.top-artist-pict {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    border: 2px solid #4f46e5;
+}
+
+.top-artist-pict > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.top-artist-name {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.top-artist-category {
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    color: #333;
+    margin-left: 6px;
+    margin-right: 6px;
+
+    transition: all 0.2s ease;
+}
+
+.trend-art {
+    height: 320px;
+    width: 300px;
+    margin-right: 24px;
+}
+
+footer {
+    background-color: #111827;
+}
+
+footer p,
+a {
+    color: #9ca3af;
+}
+
+footer li {
+    margin-bottom: 13px;
+}
+
+.social-footer {
+    border: none;
+    background-color: #1f2937;
+    color: white;
+}
+
+.social-footer:hover {
+    background-color: #323c49;
+}

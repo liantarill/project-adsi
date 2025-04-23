@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: #f8f9fa; */
+}
+
+.login-section {
+    padding: 60px 0;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 14px;
+}
