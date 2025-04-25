@@ -18,10 +18,6 @@
     font-size: 30px;
 }
 
-.logo_foot {
-    font-family: "Agustina", cursive;
-}
-
 .navbar {
     position: fixed;
     top: 0;
@@ -212,27 +208,4 @@
     height: 320px;
     width: 300px;
     margin-right: 24px;
-}
-
-footer {
-    background-color: #111827;
-}
-
-footer p,
-a {
-    color: #9ca3af;
-}
-
-footer li {
-    margin-bottom: 13px;
-}
-
-.social-footer {
-    border: none;
-    background-color: #1f2937;
-    color: white;
-}
-
-.social-footer:hover {
-    background-color: #323c49;
 }

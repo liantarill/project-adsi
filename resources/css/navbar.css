@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+    /* transform: translateY(-2px); */
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}

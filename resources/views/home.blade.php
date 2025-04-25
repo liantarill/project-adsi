@@ -9,45 +9,16 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    {{-- <link rel="stylesheet" href="styles.css"> --}}
-    @vite(['resources/css/home.css'])
+    @vite('resources/css/app.css')
 
     <title>UTP</title>
 </head>
 
 <body>
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
-        <a class="logo navbar-brand fw-bold text-primary" href="#">Artzin</a>
-
-        <ul class="navbar-nav me-auto ms-4">
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#"><i class="bi bi-house"></i> Beranda</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#"><i class="bi bi-compass"></i> Jelajahi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#"><i class="bi bi-cart"></i> Keranjang</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#"><i class="bi bi-person"></i> Profil</a>
-            </li>
-        </ul>
-
-        <form class="d-flex me-3" style="flex: 1; max-width: 400px;">
-            <div class="input-group">
-                <span class="input-group-text bg-light border-0"><i class="bi bi-search"></i></span>
-                <input type="text" class="form-control border-0 bg-light" placeholder="Cari karya seni...">
-                <button class="btn btn-light border-0" type="button"><i class="bi bi-sliders"></i></button>
-            </div>
-        </form>
-
-        <a href="#" class="btn btn-primary me-3"><i class="bi bi-plus"></i> Jual Karya</a>
-        <img src="Images/profie.jpg" class="rounded-circle" width="36" height="36" alt="Profil">
-    </nav>
+    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" /> --}}
+    
+    <x-navbar />
+    
 
     <section class="hero-section text-start px-5">
         <div class="hero-overlay"></div>
@@ -549,76 +520,9 @@
     </section>
 
 
-    <footer class=" text-light pt-5 pb-3">
-        <div class="container">
-            <div class="row">
-                <!-- Logo & Deskripsi -->
-                <div class="col-md-3 mb-4">
-                    <h5 class="mb-3 logo">Artzin</h5>
-                    <p>Platform penjualan seni terdepan di Indonesia yang menghubungkan seniman berbakat dengan pecinta
-                        seni dari seluruh dunia.</p>
-                    <div class="d-flex gap-2">
-                        <a href="#" class="btn social-footer btn-sm rounded-circle"><i class=" bi-instagram"></i></a>
-                        <a href="#" class="btn social-footer btn-sm rounded-circle"><i class=" bi-facebook"></i></a>
-                        <a href="#" class="btn social-footer btn-sm rounded-circle"><i class=" bi-twitter-x"></i></a>
-                        <a href="#" class="btn social-footer btn-sm rounded-circle"><i class=" bi-youtube"></i></a>
-                    </div>
-                </div>
+    <x-footer />
+    
 
-                <!-- Kategori -->
-                <div class="col-md-2 mb-4">
-                    <h5 class="mb-3">Kategori</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class=" text-decoration-none">Lukisan</a></li>
-                        <li><a href="#" class=" text-decoration-none">Patung</a></li>
-                        <li><a href="#" class=" text-decoration-none">Digital Art</a></li>
-                        <li><a href="#" class=" text-decoration-none">Fotografi</a></li>
-                        <li><a href="#" class=" text-decoration-none">Seni Grafis</a></li>
-                        <li><a href="#" class=" text-decoration-none">Kerajinan</a></li>
-                    </ul>
-                </div>
-
-                <!-- Tautan -->
-                <div class="col-md-2 mb-4">
-                    <h5 class="mb-3">Tautan</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class=" text-decoration-none">Tentang Kami</a></li>
-                        <li><a href="#" class=" text-decoration-none">Cara Kerja</a></li>
-                        <li><a href="#" class=" text-decoration-none">Seniman</a></li>
-                        <li><a href="#" class=" text-decoration-none">Pameran</a></li>
-                        <li><a href="#" class=" text-decoration-none">Blog</a></li>
-                        <li><a href="#" class=" text-decoration-none">Kontak</a></li>
-                    </ul>
-                </div>
-
-                <!-- Berlangganan -->
-                <div class="col-md-5 mb-4">
-                    <h5 class="mb-3">Berlangganan</h5>
-                    <p>Dapatkan info terbaru tentang pameran dan karya seni baru.</p>
-                    <form class="d-flex mb-3">
-                        <input type="email" class="form-control me-2" placeholder="Email Anda">
-                        <button class="btn btn-primary" type="submit">Langganan</button>
-                    </form>
-                    <div class="d-flex gap-3">
-                        <i class="bi bi-credit-card"></i>
-                        <i class="bi bi-paypal"></i>
-                        <i class="bi bi-cash-stack"></i>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="bg-light">
-
-            <div class="d-md-flex justify-content-between text-center">
-                <p class="mb-0">&copy; 2025 Artzin. Hak Cipta Dilindungi.</p>
-                <div>
-                    <a href="#" class="text-light text-decoration-none me-3">Syarat & Ketentuan</a>
-                    <a href="#" class="text-light text-decoration-none me-3">Kebijakan Privasi</a>
-                    <a href="#" class="text-light text-decoration-none">Kebijakan Pengembalian</a>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

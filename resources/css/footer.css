@@ -1,0 +1,26 @@
+footer {
+    background-color: #111827;
+}
+
+footer p,
+a {
+    color: #9ca3af;
+}
+
+footer li {
+    margin-bottom: 13px;
+}
+
+.logo-footer {
+    font-family: "Agustina", cursive;
+}
+
+.social-footer {
+    border: none;
+    background-color: #1f2937;
+    color: white;
+}
+
+.social-footer:hover {
+    background-color: #323c49;
+}
