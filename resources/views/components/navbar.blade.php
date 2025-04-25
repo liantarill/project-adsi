@@ -11,7 +11,7 @@
             <a class="nav-link text-black" href="#"><i class="bi bi-compass"></i> Jelajahi</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-black" href="#"><i class="bi bi-cart"></i> Keranjang</a>
+            <a class="nav-link text-black" href="{{ route('cart') }}"><i class="bi bi-cart"></i> Keranjang</a>
         </li>
         <li class="nav-item">
             <a class="nav-link text-black" href="{{ route('profile') }}"><i class="bi bi-person"></i> Profil</a>

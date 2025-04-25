@@ -27,7 +27,7 @@
                     <div class="card profile-card text-start">
                         <div class="d-flex  card-body align-items-center justify-content-between">
 
-                            <div class="d-flex align-items-center">
+                            <div class="ms-5 d-flex align-items-center">
                                 <div class="profile-pict">
                                     <img src="Images/profie.jpg" alt="Profile">
                                 </div>
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
 
-                            <div class="d-flex profile-info text-light">
+                            <div class="me-5 d-flex profile-info text-light">
                                 <div class="mx-2 text-center">
                                     <h3>24</h3>
                                     <p>Koleksi</p>
@@ -73,13 +73,17 @@
                             <ul class="list-unstyled menu-list">
                                 <li><a href="#" class="d-block text-decoration-none"><i
                                             class="bi bi-currency-dollar me-2"></i> 0</a></li>
-                                <li><a href="#" class="d-block text-decoration-none"><i class="bi bi-wallet2 me-2"></i>
+                                <li><a href="#" class="d-block text-decoration-none"><i
+                                            class="bi bi-wallet2 me-2"></i>
                                         Kartu saya</a></li>
-                                <li><a href="#" class="d-block text-decoration-none"><i class="bi bi-bag me-2"></i>
+                                <li><a href="#" class="d-block text-decoration-none"><i
+                                            class="bi bi-bag me-2"></i>
                                         Pesanan saya</a></li>
-                                <li><a href="#" class="d-block text-decoration-none"><i class="bi bi-gear me-2"></i>
+                                <li><a href="#" class="d-block text-decoration-none"><i
+                                            class="bi bi-gear me-2"></i>
                                         Hapus akun</a></li>
-                                <li><a href="#" class="d-block text-decoration-none"><i class="bi bi-power me-2"></i>
+                                <li><a href="#" class="d-block text-decoration-none"><i
+                                            class="bi bi-power me-2"></i>
                                         Log out</a></li>
                             </ul>
                         </div>
@@ -112,11 +116,11 @@
     <x-footer />
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

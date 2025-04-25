@@ -18,3 +18,7 @@ Route::get('/home', function () {
 Route::get('/katalog', function () {
     return view('katalog');
 })->name('katalog');
+
+Route::get('/cart', function () {
+    return view('cart');
+})->name('cart');

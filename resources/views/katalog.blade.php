@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
     <x-navbar />
 
@@ -71,7 +70,7 @@
                 <!-- Card -->
                 <div class="col-6 col-md-3">
                     <div class="card h-100 shadow-sm">
-                        <img src="https://via.placeholder.com/300x300" class="card-img-top" alt="Lisa Big L">
+                        <img src="{{ asset('images/javascript.png') }}" class="card-img-top" alt="Lisa Big L">
                         <div class="card-body">
                             <h6 class="card-title mb-0">Lisa Big L</h6>
                             <small class="text-muted">Oleh Sri Mulyani</small>
@@ -89,6 +88,24 @@
                 </div>
 
                 <!-- Tambah 3 card lainnya dengan struktur yang sama -->
+                <div class="col-6 col-md-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="{{ asset('images/javascript.png') }}" class="card-img-top" alt="Lisa Big L">
+                        <div class="card-body">
+                            <h6 class="card-title mb-0">Lisa Big L</h6>
+                            <small class="text-muted">Oleh Sri Mulyani</small>
+                            <div class="d-flex justify-content-between mt-2">
+                                <span class="text-warning small">&#9733; 4.9</span>
+                                <span class="fw-semibold">Rp 3.800.000</span>
+                            </div>
+                        </div>
+                        <div class="card-footer text-end bg-white border-0">
+                            <button class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
                 <!-- ... -->
             </div>
         </div>
