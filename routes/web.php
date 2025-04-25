@@ -14,3 +14,7 @@ Route::get('/profile', function () {
 Route::get('/home', function () {
     return view('home');
 })->name('home');
+
+Route::get('/katalog', function () {
+    return view('katalog');
+})->name('katalog');

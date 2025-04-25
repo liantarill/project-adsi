@@ -9,6 +9,7 @@ export default defineConfig({
                 "resources/css/app.css",
                 "resources/css/pages/home.css",
                 "resources/css/pages/profile.css",
+                "resources/css/pages/katalog.css",
                 "resources/css/components/navbar.css",
                 "resources/css/components/footer.css",
                 "resources/js/app.js",
