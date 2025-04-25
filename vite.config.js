@@ -7,11 +7,10 @@ export default defineConfig({
         laravel({
             input: [
                 "resources/css/app.css",
-                "resources/css/login.css",
-                "resources/css/home.css",
-                "resources/css/profile.css",
-                "resources/css/navbar.css",
-                "resources/css/footer.css",
+                "resources/css/pages/home.css",
+                "resources/css/pages/profile.css",
+                "resources/css/components/navbar.css",
+                "resources/css/components/footer.css",
                 "resources/js/app.js",
             ],
             refresh: true,

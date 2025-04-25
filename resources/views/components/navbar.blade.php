@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 
 <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
-    <a class="logo navbar-brand fw-bold text-primary" href="#">Artzin</a>
+    <a class="logo navbar-brand fw-bold " href="#">Artzin</a>
 
     <ul class="navbar-nav me-auto ms-4">
         <li class="nav-item">
@@ -26,7 +26,7 @@
         </div>
     </form>
 
-    <a href="#" class="btn btn-primary me-3"><i class="bi bi-plus"></i> Jual Karya</a>
+    <a href="#" class="btn btn-jual me-3"><i class="bi bi-plus"></i> Jual Karya</a>
     {{-- <img src="Images/profie.jpg" class="rounded-circle" width="36" height="36" alt="Profil"> --}}
     <a href="{{ route('profile') }}" class="d-flex align-items-center">
         <img src="{{ asset('Images/profie.jpg') }}" class="rounded-circle" width="36" height="36" alt="Profil">

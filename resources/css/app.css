@@ -1,3 +1,5 @@
-@import "./footer.css";
-@import "./home.css";
-@import "./profile.css";
+@import "./components/navbar.css";
+@import "./components/footer.css";
+
+@import "./pages/home.css";
+@import "./pages/profile.css";
