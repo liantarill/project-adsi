@@ -68,8 +68,8 @@
 
 
                 <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card card-item">
+                        <div class=" card-body">
                             <ul class="list-unstyled menu-list">
                                 <li><a href="#" class="d-block text-decoration-none"><i
                                             class="bi bi-currency-dollar me-2"></i> 0</a></li>
@@ -91,8 +91,8 @@
                 </div>
 
                 <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="order-tabs d-flex">
+                    <div class="card card-item">
+                        <div class=" order-tabs d-flex">
                             <div class="order-tab ">
                                 <i class="bi bi-credit-card"></i>
                                 <span>To Pay</span>

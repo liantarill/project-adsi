@@ -61,6 +61,10 @@
     font-weight: 600;
 }
 
+.card-item {
+    height: 310px;
+}
+
 .menu-list a {
     display: flex;
     align-items: center;
