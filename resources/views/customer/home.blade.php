@@ -16,7 +16,8 @@
 
 <body>
 
-    <x-navbar />
+    <x-customer.navbar />
+
 
 
     <section class="hero-section text-start px-5">
@@ -521,7 +522,7 @@
     </section>
 
 
-    <x-footer />
+    <x-customer.footer />
 
 
 

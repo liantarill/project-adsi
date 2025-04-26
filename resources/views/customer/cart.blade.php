@@ -16,7 +16,7 @@
 
 <body>
 
-    <x-navbar />
+    <x-customer.navbar />
     <section class="mt-5 py-5">
         <h2 class="ps-4">Keranjang Belanja</h2>
         <div class="cart-container d-flex justify-content-between p-4">
@@ -75,7 +75,7 @@
 
         </div>
     </section>
-    <x-footer />
+    <x-customer.footer />
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">

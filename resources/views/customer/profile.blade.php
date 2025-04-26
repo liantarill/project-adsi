@@ -17,7 +17,7 @@
 <body>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <x-navbar />
+    <x-customer.navbar />
 
 
     <section class="profile-header mt-5">
@@ -113,7 +113,7 @@
     </section>
 
 
-    <x-footer />
+    <x-customer.footer />
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
