@@ -1,0 +1,22 @@
+.thead-order th {
+    font-size: 12px;
+    font-weight: normal;
+    color: #6b7280;
+}
+.order-id,
+.order-date,
+.cust-username,
+.art-name,
+.order-total {
+    font-size: 14px;
+}
+
+.payment-status {
+    background-color: #def7ec;
+    color: #03543e;
+}
+
+.shipping-status {
+    background-color: #e0f2fe;
+    color: #0c4a6e;
+}

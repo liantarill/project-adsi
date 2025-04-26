@@ -21,3 +21,8 @@ Route::get('/katalog', function () {
 Route::get('/cart', function () {
     return view('customer.cart');
 })->name('cart');
+
+
+Route::get('/order', function () {
+    return view('artist.order');
+});
