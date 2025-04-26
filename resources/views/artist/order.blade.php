@@ -15,11 +15,8 @@
 </head>
 
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <x-customer.navbar />
-
-
+    <x-artist.navbar />
 
     <div class="px-4 py-5 mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('css/components/navbar.css') }}">
+<link rel="stylesheet" href="{{ asset('css/components/customer/navbar.css') }}">
 
 <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
     <a class="logo navbar-brand fw-bold " href="#">Artzin</a>

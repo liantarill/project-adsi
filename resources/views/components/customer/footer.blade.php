@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+<link rel="stylesheet" href="{{ asset('css/components/artist/footer.css') }}">
 
 
 <footer class="footku text-light pt-5 pb-3">

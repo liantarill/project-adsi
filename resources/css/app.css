@@ -1,5 +1,5 @@
-@import "./components/navbar.css";
-@import "./components/footer.css";
+@import "./components/customer/navbar.css";
+@import "./components/customer/footer.css";
 
 @import "./pages/home.css";
 @import "./pages/profile.css";
