@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-white shadow-sm px-3">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
     <div class="container-fluid">
 
         <a class="navbar-brand fw-bold logo" href="#">Artzin</a>
@@ -9,10 +9,11 @@
                     <a class="nav-link" href="#">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Katalog</a>
+                    <a class="nav-link" href="{{ route('my-katalog') }}">Katalog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-primary fw-semibold" href="#">Pesanan</a> <!-- Active tab -->
+                    <a class="nav-link active text-primary fw-semibold" href="{{ route('order') }}">Pesanan</a>
+                    <!-- Active tab -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pelanggan</a>
@@ -34,10 +35,10 @@
 
                 <!-- User Profile -->
                 <div class="d-flex align-items-center">
-                    <img src="https://i.pravatar.cc/40" alt="Profile" class="rounded-circle me-2" width="40"
-                        height="40">
+                    <img src="https://i.pravatar.cc/40" alt="Profile" class="rounded-circle me-2" width="36"
+                        height="36">
                     <div>
-                        <div class="fw-semibold small">Budi Santoso</div>
+                        <div class="fw-semibold small text-dark">Budi Santoso</div>
                         <div class="text-muted small">Seniman</div>
                     </div>
                 </div>

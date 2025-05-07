@@ -25,4 +25,12 @@ Route::get('/cart', function () {
 
 Route::get('/order', function () {
     return view('artist.order');
-});
+})->name('order');
+
+Route::get('/cust-chat', function () {
+    return view('customer.cust-chat');
+})->name('cust-chat');
+
+Route::get('/my-katalog', function () {
+    return view('artist.my-katalog');
+})->name('my-katalog');

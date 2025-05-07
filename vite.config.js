@@ -11,6 +11,7 @@ export default defineConfig({
                 "resources/css/pages/profile.css",
                 "resources/css/pages/katalog.css",
                 "resources/css/pages/order.css",
+                "resources/css/pages/cust-chat.css",
 
                 "resources/css/components/customer/navbar.css",
                 "resources/css/components/customer/footer.css",
