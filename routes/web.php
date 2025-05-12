@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 Route::get('/', function () {
     return view('customer.home');
@@ -26,9 +27,33 @@ Route::get('/checkout', function () {
     return view('customer.checkout');
 })->name('checkout');
 
-Route::get('/purchase', function () {
-    return view('customer.purchase');
-})->name('purchase');
+
+
+Route::get('/purchase', function (Request $request) {
+    // Ambil tab dari URL, kalau ada simpan ke session
+    if ($request->has('tab')) {
+        session(['active_tab' => $request->get('tab')]);
+    }
+
+    // Ambil tab aktif dari session, default ke 'all'
+    $activeTab = session('active_tab', 'all');
+
+    // Tentukan view mana yang akan ditampilkan berdasarkan tab
+    switch ($activeTab) {
+        case 'unpaid':
+            return view('customer.purchase.unpaid');
+        case 'processing':
+            return view('customer.purchase.processing');
+        case 'shipped':
+            return view('customer.purchase.shipped');
+        case 'done':
+            return view('customer.purchase.completed');
+
+        default:
+            return view('customer.purchase.all');
+    }
+})->name('purchase.all');
+
 
 
 Route::get('/order', function () {

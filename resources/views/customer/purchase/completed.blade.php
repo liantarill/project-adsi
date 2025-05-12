@@ -11,7 +11,7 @@
 
     @vite(['resources/css/app.css'])
 
-    <title>Profile</title>
+    <title>Artzin</title>
 </head>
 
 <body>
@@ -22,15 +22,8 @@
 
     <section class="profile-header py-5 mt-5">
         <div class="px-4 my-4">
-            <!-- Tabs -->
-            <ul class="nav nav-tabs mb-4">
-                <li class="nav-item"><a class="nav-link" href="#">Semua</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Belum Bayar</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Sedang Dikemas</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Dikirim</a></li>
-                <li class="nav-item"><a class="nav-link active text-purple" style="color: #6f42c1;"
-                        href="#">Selesai</a></li>
-            </ul>
+            <x-customer.purchase-nav />
+
 
             <!-- Pesanan Card -->
             <div class="card mb-4 border-2 border-light shadow-sm">
@@ -98,8 +91,7 @@
 
                                                     <input type="radio" class="btn-check" name="rating"
                                                         id="star5" autocomplete="off">
-                                                    <label class="btn btn-outline-warning"
-                                                        for="star5">★★★★★</label>
+                                                    <label class="btn btn-outline-warning" for="star5">★★★★★</label>
                                                 </div>
                                             </div>
                                         </div>

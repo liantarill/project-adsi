@@ -11,7 +11,7 @@
 
     @vite(['resources/css/app.css'])
 
-    <title>Profile</title>
+    <title>Artzin</title>
 </head>
 
 <body>

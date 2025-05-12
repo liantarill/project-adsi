@@ -19,7 +19,7 @@
                     <a class="nav-link" href="#">Pelanggan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Laporan</a>
+                    <a class="nav-link" href="{{ route('report') }}">Laporan</a>
                 </li>
             </ul>
 
