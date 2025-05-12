@@ -17,6 +17,7 @@
 <body>
 
     <x-customer.navbar />
+    <x-customer.chat-button />
 
     <div class="container py-5 mt-5">
 
@@ -47,9 +48,12 @@
                     <button class="btn btn-outline-secondary">−</button>
                     <input type="text" class="form-control text-center" value="1" style="width: 60px;">
                     <button class="btn btn-outline-secondary">+</button>
-                    <button class="btn btn-danger ms-2">Buy Now</button>
+                    <button class="btn btn-danger flex-grow-1">Buy Now</button>
                     <button class="btn btn-outline-secondary">
                         <i class="bi bi-cart"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary">
+                        <i class="bi bi-chat"></i>
                     </button>
                 </div>
 

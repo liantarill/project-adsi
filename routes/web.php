@@ -22,6 +22,14 @@ Route::get('/cart', function () {
     return view('customer.cart');
 })->name('cart');
 
+Route::get('/checkout', function () {
+    return view('customer.checkout');
+})->name('checkout');
+
+Route::get('/purchase', function () {
+    return view('customer.purchase');
+})->name('purchase');
+
 
 Route::get('/order', function () {
     return view('artist.order');
@@ -34,3 +42,7 @@ Route::get('/cust-chat', function () {
 Route::get('/my-katalog', function () {
     return view('artist.my-katalog');
 })->name('my-katalog');
+
+Route::get('/report', function () {
+    return view('artist.report');
+})->name('report');

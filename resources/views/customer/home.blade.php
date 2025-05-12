@@ -17,7 +17,7 @@
 <body>
 
     <x-customer.navbar />
-
+    <x-customer.chat-button />
 
 
     <section class="hero-section text-start px-5">

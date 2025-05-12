@@ -1,0 +1,63 @@
+.status-aktif {
+    color: #198754;
+    font-weight: bold;
+}
+.status-tidak-aktif {
+    color: #dc3545;
+    font-weight: bold;
+}
+.status-tunda {
+    color: #ffc107;
+    font-weight: bold;
+}
+.card-icon {
+    font-size: 1.5rem;
+}
+.table-avatar {
+    display: flex;
+    align-items: center;
+}
+.table-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.total-pelanggan-logo {
+    background-color: #dbeafe;
+    width: 40px;
+    height: 40px;
+}
+
+.pelanggan-baru-logo {
+    background-color: #f3e8ff;
+    width: 40px;
+    height: 40px;
+}
+
+.pelanggan-baru-logo > i {
+    color: #a855f7;
+}
+
+.rata-transaksi-logo {
+    background-color: #cffafe;
+    width: 40px;
+    height: 40px;
+}
+
+.rata-transaksi-logo > i {
+    color: #06b6d4;
+}
+.total-trans-logo {
+    background-color: #ffedd5;
+    width: 40px;
+    height: 40px;
+}
+.total-trans-logo > i {
+    color: #f97316;
+}
+
+.bi-eye-fill {
+    color: #6366f1;
+}

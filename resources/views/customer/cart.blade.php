@@ -17,6 +17,8 @@
 <body>
 
     <x-customer.navbar />
+    <x-customer.chat-button />
+
     <section class="mt-5 py-5">
         <h2 class="ps-4">Keranjang Belanja</h2>
         <div class="cart-container d-flex justify-content-between p-4">
@@ -69,7 +71,7 @@
                     <span class="text-primary">Rp 19.350.000</span>
                 </div>
                 <input type="text" placeholder="Masukkan kode promo" class="form-control mt-3">
-                <button class="btn btn-primary w-100 mt-3">Proses Checkout</button>
+                <a href="{{ route('checkout') }}" class="btn btn-primary w-100 mt-3">Proses Checkout</a>
                 <button class="btn btn-outline-secondary w-100 mt-2">Lanjutkan Belanja</button>
             </div>
 

@@ -12,7 +12,7 @@
                     <a class="nav-link" href="{{ route('my-katalog') }}">Katalog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active text-primary fw-semibold" href="{{ route('order') }}">Pesanan</a>
+                    <a class="nav-link" href="{{ route('order') }}">Pesanan</a>
                     <!-- Active tab -->
                 </li>
                 <li class="nav-item">
@@ -35,8 +35,8 @@
 
                 <!-- User Profile -->
                 <div class="d-flex align-items-center">
-                    <img src="https://i.pravatar.cc/40" alt="Profile" class="rounded-circle me-2" width="36"
-                        height="36">
+                    <img src="{{ asset('Images/profie.jpg') }}" alt="Profile" class="rounded-circle me-2"
+                        width="36" height="36">
                     <div>
                         <div class="fw-semibold small text-dark">Budi Santoso</div>
                         <div class="text-muted small">Seniman</div>
