@@ -76,7 +76,7 @@
                                 <li><a href="#" class="d-block text-decoration-none"><i
                                             class="bi bi-wallet2 me-2"></i>
                                         Kartu saya</a></li>
-                                <li><a href="{{ route('purchase') }}" class="d-block text-decoration-none"><i
+                                <li><a href="{{ route('purchase.all') }}" class="d-block text-decoration-none"><i
                                             class="bi bi-bag me-2"></i>
                                         Pesanan saya</a></li>
                                 <li><a href="#" class="d-block text-decoration-none"><i

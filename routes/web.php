@@ -30,15 +30,8 @@ Route::get('/checkout', function () {
 
 
 Route::get('/purchase', function (Request $request) {
-    // Ambil tab dari URL, kalau ada simpan ke session
-    if ($request->has('tab')) {
-        session(['active_tab' => $request->get('tab')]);
-    }
+    $activeTab = $request->get('tab', 'all'); // default ke 'all' jika tidak ada ?tab
 
-    // Ambil tab aktif dari session, default ke 'all'
-    $activeTab = session('active_tab', 'all');
-
-    // Tentukan view mana yang akan ditampilkan berdasarkan tab
     switch ($activeTab) {
         case 'unpaid':
             return view('customer.purchase.unpaid');
@@ -46,13 +39,13 @@ Route::get('/purchase', function (Request $request) {
             return view('customer.purchase.processing');
         case 'shipped':
             return view('customer.purchase.shipped');
-        case 'done':
+        case 'completed':
             return view('customer.purchase.completed');
-
         default:
             return view('customer.purchase.all');
     }
 })->name('purchase.all');
+
 
 
 
@@ -71,3 +64,8 @@ Route::get('/my-katalog', function () {
 Route::get('/report', function () {
     return view('artist.report');
 })->name('report');
+
+
+Route::get('/manage-accounts', function () {
+    return view('admin.manage-accounts');
+})->name('manage-accounts');
