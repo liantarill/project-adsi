@@ -7,3 +7,8 @@
 @import "./pages/order.css";
 @import "./pages/cust-chat.css";
 @import "./pages/report.css";
+@import "./pages/manage-accounts.css";
+
+.purple {
+    color: #4f46e5;
+}

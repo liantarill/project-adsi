@@ -68,4 +68,8 @@ Route::get('/report', function () {
 
 Route::get('/manage-accounts', function () {
     return view('admin.manage-accounts');
-})->name('manage-accounts');
+})->name('admin.manage-accounts');
+
+Route::get('/reports', function () {
+    return view('admin.reports');
+})->name('admin.reports');

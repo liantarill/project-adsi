@@ -13,6 +13,7 @@ export default defineConfig({
                 "resources/css/pages/order.css",
                 "resources/css/pages/cust-chat.css",
                 "resources/css/pages/report.css",
+                "resources/css/pages/manage-accounts.css",
 
                 "resources/css/components/customer/navbar.css",
                 "resources/css/components/customer/footer.css",

@@ -1,98 +1,38 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mengelola Akun</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <style>
-        .status-aktif {
-            background-color: #d1f7c4;
-            color: #28a745;
-            padding: 4px 8px;
-            border-radius: 10px;
-            font-size: 0.75rem;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        .status-nonaktif {
-            background-color: #f8d7da;
-            color: #dc3545;
-            padding: 4px 8px;
-            border-radius: 10px;
-            font-size: 0.75rem;
-        }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-        .status-ditangguhkan {
-            background-color: #fff3cd;
-            color: #856404;
-            padding: 4px 8px;
-            border-radius: 10px;
-            font-size: 0.75rem;
-        }
+    @vite(['resources/css/app.css'])
 
-        .avatar {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background-color: #dee2e6;
-            color: #fff;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-        }
-    </style>
+    <title>Artzin</title>
 </head>
 
-<body class="bg-light">
+<body>
 
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2 border-bottom">
-        <div class="container-fluid">
-            <!-- Logo -->
-            <a class="navbar-brand text-primary fw-bold" href="#">
-                <span style="font-family: cursive;">logo</span>
-            </a>
-
-            <!-- Navigasi Tengah -->
-            <div class="d-flex align-items-center gap-4">
-                <a href="#" class="text-muted text-decoration-none">
-                    <i class="bi-file-earmark-text me-1"></i> Meninjau Laporan
-                </a>
-
-                <div class="dropdown">
-                    <a class="dropdown-toggle text-primary fw-semibold text-decoration-none" href="#"
-                        role="button" data-bs-toggle="dropdown">
-                        <i class="bi-person-circle me-1"></i> Mengelola Akun
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Akun Pelanggan</a></li>
-                        <li><a class="dropdown-item" href="#">Akun Seniman</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- User Info Kanan -->
-            <div class="ms-auto d-flex align-items-center">
-                <div class="text-end me-3">
-                    <div class="fw-semibold">Admin Utama</div>
-                    <small class="text-muted">admin@example.com</small>
-                </div>
-                <div class="bg-light rounded-circle p-2">
-                    <i class="bi-person fs-5"></i>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <section class="container mt-4">
+    <x-admin.navbar />
+    <section class="container py-5 mt-4">
         <!-- Judul dan Breadcrumb -->
         <div class="mb-4">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Beranda</a></li>
-                    <li class="breadcrumb-item"><a href="#">Mengelola Akun</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Akun Pelanggan</li>
+                    <li class="">
+                        <a class="text-decoration-none text-muted" href="#">Beranda</a>
+                    </li>
+                    <li>
+                        <i class="bi-chevron-right text-muted"></i>
+                        <a class="text-decoration-none text-muted" href="#">Mengelola Akun</a>
+                    </li>
+                    <li aria-current="page text-primary">
+                        <i class="bi-chevron-right text-muted"></i>
+                        <span class="text-primary">Akun Pelanggan</span>
+                    </li>
                 </ol>
             </nav>
             <h4 class="fw-bold">Mengelola Akun</h4>
@@ -145,7 +85,7 @@
                 </thead>
                 <tbody>
                     <!-- Contoh Baris -->
-                    @for ($i = 0; $i < 15; $i++)
+                    @for ($i = 0; $i < 8; $i++)
                         <tr>
                             <td><input type="checkbox"></td>
                             <td>P-10025</td>
@@ -162,6 +102,24 @@
                                 </div>
                                 <a href="#" class="text-danger ms-2"><i class="bi-trash"></i></a>
                             </td>
+
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>P-10025</td>
+                            <td><span class="badge bg-primary-subtle text-primary rounded-circle me-2">BS</span> Budi
+                                Santoso</td>
+                            <td>budi.santoso@gmail.com</td>
+                            <td>+62 812-3456-7890</td>
+                            <td><span class="badge status-ditangguhkan">Ditangguhkan</span></td>
+                            <td>12 Mei 2025</td>
+                            <td>
+                                <a href="#" class="text-secondary me-2"><i class="bi-pencil"></i></a>
+                                <div class="form-check form-switch d-inline">
+                                    <input class="form-check-input" type="checkbox" checked>
+                                </div>
+                                <a href="#" class="text-danger ms-2"><i class="bi-trash"></i></a>
+                            </td>
+                        </tr>
                         </tr>
                     @endfor
                     <!-- Tambahkan baris lain sesuai data -->
@@ -186,7 +144,14 @@
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

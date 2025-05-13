@@ -1,21 +1,30 @@
+@php
+    function activeMenu($routeName)
+    {
+        return request()->routeIs($routeName) ? 'purple fw-semibold' : 'text-muted';
+    }
+@endphp
+
+
 <link rel="stylesheet" href="{{ asset('css/components/customer/navbar.css') }}">
 
 <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-2">
     <a class="logo navbar-brand fw-bold " href="#">Artzin</a>
 
     <ul class="navbar-nav me-auto ms-4">
-        <li class="nav-item">
-            <a class="nav-link text-black" href="{{ route('home') }}"><i class="bi bi-house"></i> Beranda</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-black" href="#"><i class="bi bi-compass"></i> Jelajahi</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-black" href="{{ route('cart') }}"><i class="bi bi-cart"></i> Keranjang</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-black" href="{{ route('profile') }}"><i class="bi bi-person"></i> Profil</a>
-        </li>
+        <a class="nav-link {{ activeMenu('home') }}" href="{{ route('home') }}">
+            <i class="bi bi-house"></i> Beranda
+        </a>
+        <a class="nav-link " href="#">
+            <i class="bi bi-compass"></i> Jelajahi
+        </a>
+        <a class="nav-link {{ activeMenu('cart') }}" href="{{ route('cart') }}">
+            <i class="bi bi-cart"></i> Keranjang
+        </a>
+        <a class="nav-link  {{ activeMenu('profile') }}" href="{{ route('profile') }}">
+            <i class="bi bi-person"></i> Profil
+        </a>
+
     </ul>
 
     <form class="d-flex me-3" style="flex: 1; max-width: 400px;">
