@@ -24,7 +24,7 @@
                     <h4 class="fw-bold">Karya Saya</h4>
                     <p class="text-muted mb-0">Kelola semua karya seni yang telah Anda upload</p>
                 </div>
-                <a href="#" class="btn btn-primary">+ Tambah Karya Baru</a>
+                <a href="#" class="btn btn-purple">+ Tambah Karya Baru</a>
             </div>
 
             <div class="row g-4">
@@ -38,7 +38,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-success">Tersedia</span>
-                                <span class="badge bg-primary">Lukisan</span>
+                                <span class="badge bg-purple">Lukisan</span>
                             </div>
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h5 class="mb-0 fw-bold art-title">Harmoni Warna</h5>

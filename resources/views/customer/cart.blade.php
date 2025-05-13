@@ -43,7 +43,7 @@
                     </div>
                     <div class="ms-auto text-end">
                         <p class="fw-bold">Rp 2.500.000</p>
-                        <p class="text-primary">Subtotal: Rp 2.500.000</p>
+                        <p class="text-purple">Subtotal: Rp 2.500.000</p>
                         <button class="btn btn-link text-danger small">Hapus</button>
                     </div>
                 </div>
@@ -68,10 +68,10 @@
                 <hr>
                 <div class="d-flex justify-content-between fw-bold">
                     <span>Total</span>
-                    <span class="text-primary">Rp 19.350.000</span>
+                    <span class="text-purple">Rp 19.350.000</span>
                 </div>
                 <input type="text" placeholder="Masukkan kode promo" class="form-control mt-3">
-                <a href="{{ route('checkout') }}" class="btn btn-primary w-100 mt-3">Proses Checkout</a>
+                <a href="{{ route('checkout') }}" class="btn btn-purple w-100 mt-3">Proses Checkout</a>
                 <button class="btn btn-outline-secondary w-100 mt-2">Lanjutkan Belanja</button>
             </div>
 

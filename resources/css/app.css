@@ -1,5 +1,6 @@
 @import "./components/customer/navbar.css";
 @import "./components/customer/footer.css";
+/* @import "./components/customer/rating.css"; */
 
 @import "./pages/home.css";
 @import "./pages/profile.css";
@@ -9,6 +10,15 @@
 @import "./pages/report.css";
 @import "./pages/manage-accounts.css";
 
-.purple {
+.text-purple {
     color: #4f46e5;
+}
+
+.bg-purple {
+    background-color: #4f46e5;
+}
+
+.btn-purple {
+    background-color: #4f46e5;
+    color: white;
 }

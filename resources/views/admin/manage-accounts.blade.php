@@ -29,9 +29,9 @@
                         <i class="bi-chevron-right text-muted"></i>
                         <a class="text-decoration-none text-muted" href="#">Mengelola Akun</a>
                     </li>
-                    <li aria-current="page text-primary">
+                    <li aria-current="page text-purple">
                         <i class="bi-chevron-right text-muted"></i>
-                        <span class="text-primary">Akun Pelanggan</span>
+                        <span class="text-purple">Akun Pelanggan</span>
                     </li>
                 </ol>
             </nav>
@@ -89,7 +89,7 @@
                         <tr>
                             <td><input type="checkbox"></td>
                             <td>P-10025</td>
-                            <td><span class="badge bg-primary-subtle text-primary rounded-circle me-2">BS</span> Budi
+                            <td><span class="badge bg-purple-subtle text-purple rounded-circle me-2">BS</span> Budi
                                 Santoso</td>
                             <td>budi.santoso@gmail.com</td>
                             <td>+62 812-3456-7890</td>
@@ -106,7 +106,7 @@
                         <tr>
                             <td><input type="checkbox"></td>
                             <td>P-10025</td>
-                            <td><span class="badge bg-primary-subtle text-primary rounded-circle me-2">BS</span> Budi
+                            <td><span class="badge bg-purple-subtle text-purple rounded-circle me-2">BS</span> Budi
                                 Santoso</td>
                             <td>budi.santoso@gmail.com</td>
                             <td>+62 812-3456-7890</td>

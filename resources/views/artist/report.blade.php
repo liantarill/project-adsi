@@ -32,7 +32,7 @@
                         </div>
                         <div
                             class="total-pelanggan-logo rounded-circle d-flex justify-content-center align-items-center">
-                            <i class="bi bi-person text-primary fs-5"></i>
+                            <i class="bi bi-person text-purple fs-5"></i>
                         </div>
                     </div>
                 </div>

@@ -17,6 +17,7 @@ export default defineConfig({
 
                 "resources/css/components/customer/navbar.css",
                 "resources/css/components/customer/footer.css",
+                "resources/css/components/customer/rating.css",
                 "resources/js/app.js",
             ],
             refresh: true,

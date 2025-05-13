@@ -21,7 +21,7 @@
     <div class="px-4 py-5 mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2 class="fw-bold">Daftar Pesanan</h2>
-            <button class="btn btn-primary"><i class="bi-file-earmark-arrow-down"></i> Ekspor Data</button>
+            <button class="btn btn-purple"><i class="bi-file-earmark-arrow-down"></i> Ekspor Data</button>
         </div>
 
         <div class="card p-4">

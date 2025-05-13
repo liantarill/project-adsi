@@ -149,7 +149,7 @@
 
             <!-- Action Buttons -->
             <div class="d-flex justify-content-between">
-                <button class="btn btn-primary">Bayar Sekarang</button>
+                <button class="btn btn-purple">Bayar Sekarang</button>
                 <button class="btn btn-outline-secondary">Lanjutkan Belanja</button>
             </div>
         </div>

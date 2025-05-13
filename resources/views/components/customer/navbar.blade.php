@@ -1,7 +1,7 @@
 @php
     function activeMenu($routeName)
     {
-        return request()->routeIs($routeName) ? 'purple fw-semibold' : 'text-muted';
+        return request()->routeIs($routeName) ? 'text-purple fw-semibold' : 'text-muted';
     }
 @endphp
 

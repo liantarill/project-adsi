@@ -49,7 +49,7 @@
                 <div class="card h-100">
                     <div class="card-header bg-white">
                         <strong>Zidan Rosyid</strong> <span class="text-success">• Online</span>
-                        <div><strong>Elephant</strong> - <span class="text-primary">Rp 5.800.000</span></div>
+                        <div><strong>Elephant</strong> - <span class="text-purple">Rp 5.800.000</span></div>
                         <span class="badge bg-success">Stok</span>
                     </div>
 
@@ -133,7 +133,7 @@
                                 </div>
                             </div>
 
-                            <button class="btn btn-primary rounded-circle ms-3">
+                            <button class="btn btn-purple rounded-circle ms-3">
                                 <i class="bi chat-icon bi-send-fill text-white"></i>
                             </button>
                         </div>

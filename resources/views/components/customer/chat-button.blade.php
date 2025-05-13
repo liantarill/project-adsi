@@ -1,5 +1,5 @@
 <!-- resources/views/components/chat-button.blade.php -->
-<a href="/cust-chat" id="chat-button" class="btn btn-primary rounded-circle">
+<a href="/cust-chat" id="chat-button" class="btn btn-purple rounded-circle">
     <i class="bi bi-chat-dots" style="font-size: 1.5rem;"></i>
 </a>
 

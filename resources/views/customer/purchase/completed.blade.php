@@ -58,7 +58,7 @@
                         <!-- Modal -->
                         <div class="modal fade" id="ratingModal" tabindex="-1" aria-labelledby="ratingModalLabel"
                             aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-xl">
                                 <div class="modal-content border-0">
                                     <div class="modal-header bg-light">
                                         <h5 class="modal-title" id="ratingModalLabel">Nilai Produk</h5>
@@ -66,46 +66,7 @@
                                             aria-label="Tutup"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <h6 class="mb-3">Alam Indah</h6>
-
-                                        <!-- Rating bintang -->
-                                        <div class="mb-3">
-                                            <label class="form-label">Rating:</label>
-                                            <div>
-                                                <div class="btn-group" role="group">
-                                                    <input type="radio" class="btn-check" name="rating"
-                                                        id="star1" autocomplete="off">
-                                                    <label class="btn btn-outline-warning" for="star1">★</label>
-
-                                                    <input type="radio" class="btn-check" name="rating"
-                                                        id="star2" autocomplete="off">
-                                                    <label class="btn btn-outline-warning" for="star2">★★</label>
-
-                                                    <input type="radio" class="btn-check" name="rating"
-                                                        id="star3" autocomplete="off">
-                                                    <label class="btn btn-outline-warning" for="star3">★★★</label>
-
-                                                    <input type="radio" class="btn-check" name="rating"
-                                                        id="star4" autocomplete="off">
-                                                    <label class="btn btn-outline-warning" for="star4">★★★★</label>
-
-                                                    <input type="radio" class="btn-check" name="rating"
-                                                        id="star5" autocomplete="off">
-                                                    <label class="btn btn-outline-warning" for="star5">★★★★★</label>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Komentar -->
-                                        <div class="mb-3">
-                                            <label for="comment" class="form-label">Ulasan</label>
-                                            <textarea class="form-control" id="comment" rows="3" placeholder="Tulis pendapatmu tentang produk ini..."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Batal</button>
-                                        <button type="button" class="btn btn-primary">Kirim Penilaian</button>
+                                        <x-customer.rating />
                                     </div>
                                 </div>
                             </div>

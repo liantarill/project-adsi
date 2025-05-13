@@ -45,7 +45,7 @@
                 <p>Dapatkan info terbaru tentang pameran dan karya seni baru.</p>
                 <form class="d-flex mb-3">
                     <input type="email" class="form-control me-2" placeholder="Email Anda">
-                    <button class="btn btn-primary" type="submit">Langganan</button>
+                    <button class="btn btn-purple" type="submit">Langganan</button>
                 </form>
                 <div class="d-flex gap-3">
                     <i class="bi bi-credit-card"></i>

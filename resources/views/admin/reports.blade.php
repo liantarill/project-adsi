@@ -26,7 +26,7 @@
                 <a class="nav-link active" href="#">Akun Pelanggan</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-primary" href="#">Akun Seniman</a>
+                <a class="nav-link text-purple" href="#">Akun Seniman</a>
             </li>
         </ul>
 
@@ -57,7 +57,7 @@
 
                 <button class="btn btn-outline-secondary"><i class="bi-arrow-clockwise"></i> Refresh</button>
                 <button class="btn btn-outline-secondary"><i class="bi-download"></i> Export</button>
-                <button class="btn btn-primary"><i class="bi-plus"></i> Tambah Akun</button>
+                <button class="btn btn-purple"><i class="bi-plus"></i> Tambah Akun</button>
             </div>
         </div>
 
@@ -80,7 +80,7 @@
                         <td>LP-10035</td>
                         <td>
                             <div class="d-flex align-items-center gap-2">
-                                <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
+                                <div class="rounded-circle bg-purple text-white d-flex justify-content-center align-items-center"
                                     style="width: 32px; height: 32px; font-size: 0.8rem;">RW</div>
                                 <div>
                                     <div>Rudi Wijaya</div>

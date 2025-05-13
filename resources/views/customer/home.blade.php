@@ -28,7 +28,7 @@
                 Koleksi eksklusif dari seniman berbakat dengan berbagai gaya dan medium seni yang unik.
             </p>
             <div class="mt-4 d-flex flex-wrap gap-3">
-                <a href="#" class="btn btn-primary px-4 py-2">Jelajahi Koleksi</a>
+                <a href="#" class="btn btn-purple px-4 py-2">Jelajahi Koleksi</a>
                 <a href="#" class="btn btn-light px-4 py-2">Tentang Kami</a>
             </div>
         </div>
