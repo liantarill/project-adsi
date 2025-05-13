@@ -35,7 +35,7 @@
         </div>
     </form>
 
-    <a href="#" class="btn btn-jual me-3"><i class="bi bi-plus"></i> Jual Karya</a>
+    {{-- <a href="#" class="btn btn-jual me-3"><i class="bi bi-plus"></i> Jual Karya</a> --}}
     {{-- <img src="Images/profie.jpg" class="rounded-circle" width="36" height="36" alt="Profil"> --}}
     <a href="{{ route('profile') }}" class="d-flex align-items-center">
         <img src="{{ asset('Images/profie.jpg') }}" class="rounded-circle" width="36" height="36" alt="Profil">
