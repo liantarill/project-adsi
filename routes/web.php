@@ -65,6 +65,11 @@ Route::get('/report', function () {
     return view('artist.report');
 })->name('report');
 
+Route::get('/upload', function () {
+    return view('artist.upload');
+})->name('upload');
+
+
 
 Route::get('/manage-accounts', function () {
     return view('admin.manage-accounts');

@@ -24,7 +24,27 @@
                     <h4 class="fw-bold">Karya Saya</h4>
                     <p class="text-muted mb-0">Kelola semua karya seni yang telah Anda upload</p>
                 </div>
-                <a href="#" class="btn btn-purple">+ Tambah Karya Baru</a>
+                {{-- <a href="#" class="btn btn-purple">+ Tambah Karya Baru</a> --}}
+                <button type="button" class="btn btn-sm btn-purple" data-bs-toggle="modal"
+                    data-bs-target="#uploadModal">
+                    + Tambah Karya Baru
+                </button>
+
+                <div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content border-0">
+                            <div class="modal-header bg-light">
+                                <h5 class="modal-title" id="uploadModalLabel">Upload</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Tutup"></button>
+                            </div>
+                            <div class="modal-body">
+                                <x-artist.upload />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="row g-4">
