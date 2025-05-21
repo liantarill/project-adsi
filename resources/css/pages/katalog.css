@@ -1,3 +1,13 @@
 .btn-kembali {
     color: #4f46e5;
 }
+
+.recomendation-pict {
+    object-fit: cover; /* crop and fill */
+    object-position: center;
+}
+
+.plus,
+.minus {
+    background-color: #e8e8e8;
+}

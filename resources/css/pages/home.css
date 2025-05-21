@@ -53,7 +53,6 @@
 }
 .category-card {
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    background-color: #eff6ff;
     border-radius: 10px;
     transition: transform 0.3s;
     margin-bottom: 20px;
@@ -68,12 +67,12 @@
     /* transform: translateY(-5px); */
 }
 .category-title {
-    font-size: 1.5rem;
+    font-size: 16px;
     font-weight: 600;
 }
 .category-count {
     color: #6c757d;
-    font-size: 1.1rem;
+    font-size: 15px;
 }
 
 .art-card {
@@ -85,7 +84,13 @@
 .art-card:hover {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
-
+.art-card img {
+    width: 100%; /* fill width of card */
+    height: 285px; /* fixed height */
+    object-fit: cover; /* crop and fill */
+    object-position: center;
+    display: block;
+}
 .btn-like {
     margin-right: 4px;
     border: none;
@@ -171,7 +176,9 @@
 }
 
 .trend-art {
-    height: 320px;
+    height: 100%;
     width: 300px;
     margin-right: 24px;
+    flex: 0 0 250px; /* Do not grow or shrink, fixed base width */
+    margin-right: 1rem;
 }

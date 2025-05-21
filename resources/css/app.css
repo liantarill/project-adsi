@@ -18,7 +18,37 @@
     background-color: #4f46e5;
 }
 
-.btn-purple {
+.btn-purple, /* STATE NORMAL */
+.btn-purple:focus /* STATE FOCUS/LEPAS (SETELAH DITEKAN) */ {
     background-color: #4f46e5;
-    color: white;
+    color: white !important;
+    border: none;
+    transition: background-color 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* STATE HOVER */
+.btn-purple:hover {
+    background-color: #3b34b3 !important; /* Warna lebih gelap */
+}
+
+/* STATE ACTIVE (SAAT DITEKAN) */
+.btn-purple:active {
+    background-color: #2d2885 !important; /* Warna paling gelap */
+}
+
+body {
+    overflow-y: scroll;
+    overflow: auto !important;
+    padding-right: 0 !important;
+}
+
+.art-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Maksimal 2 baris */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1em; /* Atur tinggi 1 baris */
+    height: calc(1em * 2); /* Total tinggi = 2 baris */
 }
